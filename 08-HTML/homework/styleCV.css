@@ -1,0 +1,38 @@
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+    text-align: center;
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+
+}
+#contenedorId{
+    width: 80%;
+    margin:0 auto;
+    border: gray 2px solid;
+}
+#subContenedorId{
+    position: relative;
+}
+#leftContenedorId{
+    left: 0;
+    width: 40%;
+    position: absolute;
+}
+#rightContenedorId{
+    margin-left: 40%;
+    width: 50%;
+}
+img {
+    float: none;
+    width: 200px;
+    height: 250px;
+    box-shadow: 3px 3px 6px 2px gray;
+    margin-bottom: 5px;
+}
+.divs {
+    text-align: justify;
+    padding: 10px;
+}
+#motivacionId{
+    margin-top: 50px;
+}
